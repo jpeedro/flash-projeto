@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+#banner-2{
+    background-image: url(./img/savitar-barry.jpg);
+    background-position: 40% 40%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.comment {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+textarea {
+    background-color: black;
+    margin-left: 430px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    resize: none;
+}
+
+button, #resetar {
+    background-color: #D21617;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 725px;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: green;
+    transition: .5s;
+}
+
+#resetar:hover{
+    background-color: #FFA500;
+    transition: .5s;
+}

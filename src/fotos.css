@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.actor-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.caard {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card-banner-4 {
+    background-image: url(./img/grant-gustin.jpg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-4:hover {
+    transform: scale(1.10);
+}
+
+.card-banner-5 {
+    background-image: url(./img/grant-gustin-barry-allen.jpg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-5:hover{
+    transform: scale(1.10);
+}
+
+.card-banner-6 {
+    background-image: url(./img/caitlin-snow.jpg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-6:hover{
+    transform: scale(1.10);
+}
+
+.card-banner-7 {
+    background-image: url(./img/nevasca.jpg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-7:hover{
+    transform: scale(1.10);
+}
+
+.card-banner-8 {
+    background-image: url(./img/cisco.jpeg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-8:hover {
+    transform: scale(1.10);
+}
+
+.card-banner-9 {
+    background-image: url(./img/vibro.jpg);
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card-banner-9:hover {
+    transform: scale(1.10);
+}

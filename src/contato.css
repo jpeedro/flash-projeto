@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.e-mail{
+    background: black;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nome {
+    background-color: black;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.telefone {
+    background: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.level {
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.satisfação{
+    background-color: black;
+    color: white;
+    width: 550px;
+    display: block;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+button {
+    background-color: #D21617;
+    width: 70px;
+    margin-top: 10px;
+    color:  #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+#reset {
+    margin-left: 2px;
+}
+
+#reset:hover {
+    background-color: #FFA500;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: green;
+    transition: .5s;
+}
+
+form {
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 20px;
+    height: 500px;
+    width: 550px;
+    margin: 20px 50px 100px 500px;
+}
+
+#nome {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#email {
+    background-color: black;
+    color: white;
+    font-size: 15px; 
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#number {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#range {
+    width: 215px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#email::placeholder {
+    font-size: 20px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#nome::placeholder {
+    font-size: 20px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#number::placeholder {
+    font-size: 20px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
