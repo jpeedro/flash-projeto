@@ -9,7 +9,7 @@
 }
 
 #banner-2{
-    background-image: url(./img/savitar-barry.jpg);
+    background-image: url(/src/img/savitar-barry.jpg);
     background-position: 40% 40%;
     background-size: cover;
     width: 100%;
